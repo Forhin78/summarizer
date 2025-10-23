@@ -1,5 +1,5 @@
 # summarizer
-# Text Summarization Desktop App
+# Text Summarization system
 
 A Python-based desktop application that summarizes long text or PDF documents using Hugging Face Transformers and NLTK. Built with Tkinter, this app runs entirely offline—no browser required!
 
@@ -35,7 +35,7 @@ This will launch a desktop window where you can paste text or upload a PDF.
 - Requires internet access to download the model the first time
 
 # Mainwindow
-![Mainwindow]()
+![Mainwindow](https://github.com/Forhin78/summarizer/blob/2b576d01d1758341730bb85f0a29d6ac2fbc498d/main.png)
 # Summary output
 ![summary output]()
        
