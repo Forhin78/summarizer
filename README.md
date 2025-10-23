@@ -37,6 +37,6 @@ This will launch a desktop window where you can paste text or upload a PDF.
 # Mainwindow
 ![Mainwindow](https://github.com/Forhin78/summarizer/blob/2b576d01d1758341730bb85f0a29d6ac2fbc498d/main.png)
 # Summary output
-![summary output]()
+![summary output](https://github.com/Forhin78/summarizer/blob/536aadb1ced08c943781c4e4a56ca2ecbc571bce/after%20summarize.png)
        
 
