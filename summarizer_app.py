@@ -25,7 +25,7 @@ def ensure_nltk_data():
         nltk.download("punkt_tab", quiet=True, download_dir=NLTK_DATA_DIR)
 
 ensure_nltk_data()
-print("✅ NLTK tokenizer ready.")
+print(" NLTK tokenizer ready.")
 
 def load_summarizer():
     model_name = "sshleifer/distilbart-cnn-12-6"
@@ -102,7 +102,7 @@ def run_summarization(input_text, result_callback, error_callback, max_chunk_wor
 
 
 root = tk.Tk()
-root.title("🧠 Text Summarization App")
+root.title(" Text Summarization App")
 
 tk.Label(root, text="Enter text or upload a PDF:", font=("Arial", 12)).pack(anchor="w", padx=8, pady=(8,0))
 text_input = tk.Text(root, height=15, width=80, wrap="word")
@@ -161,7 +161,7 @@ def on_summarize():
 
     summarize_btn.config(state="disabled")
     upload_btn.config(state="disabled")
-    status_var.set("Summarizing... please wait ⏳")
+    status_var.set("Summarizing... please wait ")
 
     threading.Thread(target=run_summarization, args=(txt, on_result, on_error), daemon=True).start()
 
@@ -172,5 +172,6 @@ summarize_btn = tk.Button(frame, text="Summarize", width=14, command=on_summariz
 summarize_btn.grid(row=0, column=1, padx=6)
 
 root.mainloop()
+
 
 
